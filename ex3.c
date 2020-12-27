@@ -4,7 +4,7 @@
 #include <mpi.h>
 #include <time.h>
 
-#define ARR_SIZE 10
+#define ARR_SIZE 1000
 
 int main(int argc, char *argv[]) {
 	int rank,size,code,tag=100;
